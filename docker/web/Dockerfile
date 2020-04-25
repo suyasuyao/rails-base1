@@ -17,7 +17,8 @@ RUN apt-get update -qq && \
   apt-get install -y build-essential \ 
   libpq-dev \        
   nodejs \
-  npm && \
+  npm \
+  postgresql-client && \
 
   # npmのインストール
   npm install && \
